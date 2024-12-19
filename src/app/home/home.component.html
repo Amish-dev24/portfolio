@@ -1,0 +1,135 @@
+<section class="home">
+  <div class="text-content">
+    <h1>Hi, my name is</h1>
+    <br />
+    <h2>Saad Farooq.</h2>
+    <br />
+    <h3>
+      Front End Engineer <br />
+      A self-motivated, creative and ambitious developer with 4 years of
+      Experience. <br />I Would like to work hard and implement my abilities as
+      well as polish my knowledge through techniques in a challenging company.
+    </h3>
+    <div class="line-links">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+    </div>
+    <div class="social-icons">
+      <a
+        href="https://github.com/your-profile"
+        target="_blank"
+        aria-label="GitHub"
+      >
+        <i class="fab fa-github"></i>
+      </a>
+      <a
+        href="https://instagram.com/your-profile"
+        target="_blank"
+        aria-label="Instagram"
+      >
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a
+        href="https://facebook.com/your-profile"
+        target="_blank"
+        aria-label="Facebook"
+      >
+        <i class="fab fa-facebook"></i>
+      </a>
+      <a
+        href="https://twitter.com/your-profile"
+        target="_blank"
+        aria-label="Twitter"
+      >
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://wa.me/your-number" target="_blank" aria-label="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+    </div>
+  </div>
+
+  <div class="description">
+    <div id="about">
+      <p>
+        I’m a developer passionate about crafting accessible, pixel-perfect user
+        interfaces that blend thoughtful design with robust engineering. My
+        favorite work lies at the intersection of design and development,
+        creating experiences that not only look great but are meticulously built
+        for performance and usability.
+      </p>
+      <p>
+        I’m a developer passionate about crafting accessible, pixel-perfect user
+        interfaces that blend thoughtful design with robust engineering. My
+        favorite work lies at the intersection of design and development,
+        creating experiences that not only look great but are meticulously built
+        for performance and usability.
+      </p>
+      <p>
+        I’m a developer passionate about crafting accessible, pixel-perfect user
+        interfaces that blend thoughtful design with robust engineering. My
+        favorite work lies at the intersection of design and development,
+        creating experiences that not only look great but are meticulously built
+        for performance and usability.
+      </p>
+      <p>
+        I’m a developer passionate about crafting accessible, pixel-perfect user
+        interfaces that blend thoughtful design with robust engineering. My
+        favorite work lies at the intersection of design and development,
+        creating experiences that not only look great but are meticulously built
+        for performance and usability.
+      </p>
+    </div>
+    <!-- Experience Section -->
+    <section class="experience-container" id="experience">
+      <div *ngFor="let exp of experiences" class="experience-item">
+        <h3 class="experience-header">
+          <span class="experience-number">{{ exp.id }}.</span>
+          <span class="experience-year">{{ exp.year }}</span>
+        </h3>
+        <h2 class="experience-title">
+          <strong>{{ exp.title }}</strong>
+          <a href="#" class="external-link" aria-label="Company Link">↗</a>
+        </h2>
+        <p class="experience-description">
+          {{ exp.description }}
+        </p>
+        <ul class="tech-tags">
+          <li *ngFor="let tech of exp.tech">{{ tech }}</li>
+        </ul>
+      </div>
+    </section>
+    <a
+      href="assets/M SAAD FAROOQ ANGULAR.pdf"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="resume-link"
+    >
+      View Full Résumé
+      <span class="external-arrow">↗</span>
+    </a>
+
+    <!-- Projects Section -->
+    <section class="projects-container" id="projects">
+      <div *ngFor="let project of projects" class="project-item">
+        <div class="project-image">
+          <img [src]="project.image" alt="{{ project.title }}" />
+        </div>
+        <div class="project-info">
+          <h3 class="project-title">
+            {{ project.title }}
+            <a
+              [href]="project.link"
+              class="external-link"
+              target="_blank"
+              aria-label="Project Link"
+              >↗</a
+            >
+          </h3>
+          <p class="project-description">{{ project.description }}</p>
+        </div>
+      </div>
+    </section>
+  </div>
+</section>
