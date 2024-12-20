@@ -68,12 +68,12 @@ export class HomeComponent {
       image: 'assets/bnr.png',
       link: 'https://buynroar.com/',
     },
-    /*{
+    {
       title: 'Chrysalys',
       description:
         'CHRYSALYS supports you in developing your skills, talents and potential. We help you reveal yourself, to bring out your deep identity to be the person you want to show the world personally and professionally.',
       image: 'assets/chrysalys.png',
       link: 'https://chrysalys.art/',
-    },*/
+    },
   ];
 }

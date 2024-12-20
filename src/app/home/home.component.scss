@@ -129,6 +129,7 @@
   gap: 30px;
   padding: 50px 0;
   height: auto;
+  border-radius: 2px;
 }
 
 .experience-item {
@@ -279,8 +280,8 @@
   }
 
   .project-image img {
-    width: auto;
-    height: 80%;
+    max-width: 100%;
+    max-height: 100%;
     object-fit: contain;
     border-radius: 8px;
     transition: filter 0.3s ease;
