@@ -90,7 +90,14 @@
         </h3>
         <h2 class="experience-title">
           <strong>{{ exp.title }}</strong>
-          <a href="#" class="external-link" aria-label="Company Link">↗</a>
+          <a
+            [href]="exp.companyLink"
+            class="external-link"
+            aria-label="Company Link"
+            target="_blank"
+            rel="noopener noreferrer"
+            >↗</a
+          >
         </h2>
         <p class="experience-description">
           {{ exp.description }}

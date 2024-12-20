@@ -12,19 +12,30 @@ export class HomeComponent {
   experiences = [
     {
       id: 1,
-      year: '08/2021 - Present',
-      title: 'Senior Frontend Engineer, Hailu Tech ',
+      year: '10/2024 - Present',
+      title: 'Senior Angular Developer . Villaex Technologies ',
       description:
         'Developed efficient and maintainable web applications using Angular, HTML, and CSS. Implemented template-driven and reactive forms for seamless data input, validation, and user interaction. Managed robust data handling with shared modules and services for consistent functionality and code reuse. Utilized Angular routing capabilities to manage application navigation and optimized the codebase by modularizing components with services and shared modules, ensuring reusability and maintainability',
       tech: ['Angular', 'TypeScript', 'Html', 'Css'],
+      companyLink: 'https://villaextechnologies.com/',
     },
     {
       id: 2,
+      year: '08/2021 - 10/2024',
+      title: 'Senior Frontend Developer . Hailu Tech ',
+      description:
+        'Developed efficient and maintainable web applications using Angular, HTML, and CSS. Implemented template-driven and reactive forms for seamless data input, validation, and user interaction. Managed robust data handling with shared modules and services for consistent functionality and code reuse. Utilized Angular routing capabilities to manage application navigation and optimized the codebase by modularizing components with services and shared modules, ensuring reusability and maintainability',
+      tech: ['Angular', 'TypeScript', 'Html', 'Css'],
+      companyLink: '#',
+    },
+    {
+      id: 3,
       year: '08/2019 - 08/2021,  ',
       title: 'UI Developer · Brainplow ',
       description:
         'Developed over 8 web application pages using HTML5, CSS3, and SCSS. Designed responsive web applications with CSS and Bootstrap. Improved application performance by resolving issues and optimizing functionality. Enhanced user experience, achieving a 100% increase in form completion rates. Experienced in managing Angular websites and proficient in version control using Git.',
       tech: ['Bootstrap', 'SCSS', ' HTML5', ' CSS3 '],
+      companyLink: '#',
     },
   ];
   /*For Projects*/
@@ -57,5 +68,12 @@ export class HomeComponent {
       image: 'assets/bnr.png',
       link: 'https://buynroar.com/',
     },
+    /*{
+      title: 'Chrysalys',
+      description:
+        'CHRYSALYS supports you in developing your skills, talents and potential. We help you reveal yourself, to bring out your deep identity to be the person you want to show the world personally and professionally.',
+      image: 'assets/chrysalys.png',
+      link: 'https://chrysalys.art/',
+    },*/
   ];
 }
