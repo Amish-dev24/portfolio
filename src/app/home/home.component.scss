@@ -24,6 +24,7 @@
   padding-left: 50px;
   height: 600px;
   position: sticky;
+
   top: 0;
   @media (max-width: 768px) {
     max-width: 100%;
@@ -113,6 +114,7 @@
   height: 600px;
   overflow-y: auto;
   padding-left: 20px;
+
   color: white;
   font-size: larger;
   @media (max-width: 768px) {
