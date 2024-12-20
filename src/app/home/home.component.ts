@@ -47,7 +47,7 @@ export class HomeComponent {
       title: 'Shezlong',
       description:
         'I designed the entire Shezlong website, focusing on creating a user-friendly interface for an online mental health platform. My design ensures easy navigation and accessibility, providing a confidential and welcoming environment for users to connect with professional therapists via video calls. ',
-      image: 'assets/shehzlog.svg',
+      image: 'assets/shehzlog.jpg',
       link: 'https://www.shezlong.com/',
     },
     {
